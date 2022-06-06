@@ -1,0 +1,9 @@
+url:
+  home:
+    pattern: /$YAMLURL/
+    handler: MLHandler
+    kwargs:
+      config_dir: $YAMLPATH/config
+      xsrf_cookies: false
+      model:
+        class: NER
